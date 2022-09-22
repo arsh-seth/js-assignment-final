@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student's Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="studentpage"> 
+        <div class="formdata">
+          
+        <form onsubmit="event.preventDefault();" autocomplete="off">
+            
+      
+            <label>Name</label>
+            <input type="text" class="studentname" value=""  placeholder="Student's Full-Name">
+      
+            <label>Email</label>
+            <input type="text" class="Email" value=""  placeholder="Student's Email">
+      
+            <label>Phone Number</label>
+            <input type="text" class="num" value=""  placeholder="Student's Number">
+      
+            <label>Subjects</label>
+            <input type="text" class="Subjects" value="" placeholder="Student's Subjects">
+      
+            <div style="width:100%">
+            <input type="submit"  value="Submit"  class="button">
+            
+            </div>
+          </form>
+      
+        </div>
+      
+        <div class="display_table">
+                    <table class="list" id="employeeList">
+                          <thead>
+                               <tr>
+                            <th>Id</th>         
+                            <th>Full Name</th>
+                            <th>Email</th>
+                            <th>Phone Number</th>
+                            <th>Subjects</th>                      
+                            <th>Edit</th>
+                        </tr>
+                          </thead>
+                          <tbody>
+      
+                          </tbody>
+                      </table>
+        </div>
+      </div>
+
+<script src="script.js"></script>      
+</body>
+</html>
